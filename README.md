@@ -13,7 +13,7 @@ Además, se encuentra el archivo principal **Trabajo Práctico - Procesamiento d
 ## Identificación y Solución de Errores Comunes
 Durante la primera ejecución del programa, es posible encontrar algunos errores específicos:
 
-1. Al intentar crear la base de datos Chroma en la sección 7.2. Conversión a Embeddings y Almacenamiento en Chroma, puede surgir el siguiente mensaje de error:
+* Al intentar crear la base de datos Chroma en la sección 7.2. Conversión a Embeddings y Almacenamiento en Chroma, puede surgir el siguiente mensaje de error:
 
 `ValueError: Trying to load a model of incompatible/unknown type. 'RUTA-A-CARPETA' contains neither 'saved_model.pb' nor 'saved_model.pbtxt'.`
 
