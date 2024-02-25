@@ -13,8 +13,9 @@ Además, se encuentra el archivo principal **Trabajo Práctico - Procesamiento d
 ## Identificación y Solución de Errores Comunes
 Durante la primera ejecución del programa, es posible encontrar algunos errores específicos:
 
-1. Al intentar crear la base de datos Chroma en la sección 7.2. Conversión a Embeddings y Almacenamiento en Chroma, puede surgir el siguiente mensaje de error:
+### *Base de datos Chroma*
+Al intentar crear la base de datos Chroma en la sección *7.2. Conversión a Embeddings y Almacenamiento en Chroma*, puede surgir el siguiente mensaje de error: 
 
 `ValueError: Trying to load a model of incompatible/unknown type. 'RUTA-A-CARPETA' contains neither 'saved_model.pb' nor 'saved_model.pbtxt'.`
 
-Para solucionar este inconveniente, se recomienda descargar directamente el modelo **Universal-Sentence-Encoder** desde su sitio oficial: [Descargar modelo](https://www.kaggle.com/models/google/universal-sentence-encoder/frameworks/tensorFlow2/variations/multilingual-large/versions/2?tfhub-redirect=true). Debe seleccionarse la variante **multilingual-large**, **Versión 2**, y proceder con la descarga utilizando el botón ubicado junto a *+ New Notebook*. Tras descomprimir el archivo: **archive.tar.gz** y colocar su contenido en la ruta indicada por el error, el proceso de creación de la base de datos Chroma debería completarse sin problemas.
+Para solucionar este inconveniente, se recomienda descargar directamente el modelo **Universal-Sentence-Encoder** desde esta página: [Descargar modelo](https://www.kaggle.com/models/google/universal-sentence-encoder/frameworks/tensorFlow2/variations/multilingual-large/versions/2?tfhub-redirect=true). Debe seleccionarse la variante **multilingual-large**, **Versión 2**, y proceder con la descarga utilizando el botón ubicado junto a *+ New Notebook*. Tras descomprimir el archivo: **archive.tar.gz** y colocar su contenido en la ruta indicada por el error, el proceso de creación de la base de datos Chroma debería completarse sin problemas.
