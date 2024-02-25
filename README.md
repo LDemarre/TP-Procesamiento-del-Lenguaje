@@ -2,6 +2,9 @@
 ### Integrante: Lucas Demarré
 ### Año: 2024
 
+## **IMPORTANTE**
+Para poder ejecutar correctamente este archivo es necesario que en la sección *3. Variables Globales* se complete de forma correcta la variable **API_KEY** con su KEY para acceder a la api de **HuggingFace**. En caso de no hacerlo, no se podrá acceder al LLM para crear la respuesta a las consultas hechas por el usuario. 
+
 ## **Instrucciones para la Ejecución del Trabajo Práctico**
 Este repositorio alberga una estructura organizada en una carpeta principal que contiene tres subcarpetas. Cada subcarpeta almacena datos específicos destinados a la creación de distintas bases de datos, identificadas claramente por el nombre de cada una. Por ejemplo, la subcarpeta **graphDB** incluye los PDF utilizados para generar la **Base de Datos de Grafos**.
 
