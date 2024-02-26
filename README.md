@@ -3,7 +3,9 @@
 ### Año: 2024
 
 ## **IMPORTANTE**
-Para poder ejecutar correctamente este archivo es necesario que en la sección *3. Variables Globales* se complete de forma correcta la variable **API_KEY** con su KEY para acceder a la api de **HuggingFace**. En caso de no hacerlo, no se podrá acceder al LLM para crear la respuesta a las consultas hechas por el usuario. 
+Para el desarrollo de este chatbot, se empleó **Python** en su versión **3.19.18**. Es crucial tener presente esta especificación, dado que versiones distintas pueden presentar incompatibilidades con ciertas librerías. Por ello, se aconseja fervientemente la instalación de las versiones de las librerías a través del archivo **requirements.txt**, con el fin de garantizar una compatibilidad integral en todo el proyecto.
+
+Además, para poder ejecutar correctamente este archivo es necesario que en la sección *3. Variables Globales* se complete de forma correcta la variable **API_KEY** con su KEY para acceder a la api de **HuggingFace**. En caso de no hacerlo, no se podrá acceder al LLM para crear la respuesta a las consultas hechas por el usuario. 
 
 ## **Instrucciones para la Ejecución del Trabajo Práctico**
 Este repositorio alberga una estructura organizada en una carpeta principal que contiene tres subcarpetas. Cada subcarpeta almacena datos específicos destinados a la creación de distintas bases de datos, identificadas claramente por el nombre de cada una. Por ejemplo, la subcarpeta **graphDB** incluye los PDF utilizados para generar la **Base de Datos de Grafos**.
